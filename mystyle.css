@@ -1,0 +1,28 @@
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    
+}
+body{
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+       margin-left: 30px; 
+       color: brown;
+       transform: scaleX(0);
+       transition: 5s;
+}
+
+.firstpara{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mycanvas{
+    border:1px solid red;
+}
+
+#para2{
+
+}
+

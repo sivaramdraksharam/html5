@@ -1,0 +1,29 @@
+<html>
+<head><h1>Employee Management System</h1>
+<link rel="stylesheet" href="styles.css"/>
+<script src="validateuser.js"></script>
+</head>
+<body>
+  <p class="same">  The payroll management system deals with users like Admin and Employee.</p>
+<p id="para1">paragraph1<br>
+This paragraph containse nearly 200 words.</p>
+Choose job:
+<select name="jobs" id="jobs">
+    <option value="analyst">analyst</option>
+    <option value="programmer analyst">programmer analyst</option>
+    <option value="Java Developer">Java Developer</option>
+    <option value="Python programmer">Python programmer</option>
+  </select>
+  
+</select>
+
+<p class="same" align="center"> &copy All rights reserved</p>
+<div>
+    <form>
+        Enter user name<input type="text" id="uname" required/><br>
+        Enter password<input type="password" id="upass" required/>
+        <button onclick="validateuser()" name="btn1">Sign in</button>
+    </form>
+</div>
+</body>
+</html>
